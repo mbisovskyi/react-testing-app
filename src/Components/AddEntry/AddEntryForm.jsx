@@ -16,7 +16,7 @@ const AddEntryForm = (props) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <lable>Weight</lable>
+      <label>Weight</label>
       <input
         type="number"
         value={weight}
